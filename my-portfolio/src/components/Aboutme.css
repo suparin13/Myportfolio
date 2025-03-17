@@ -1,0 +1,71 @@
+.terminal-container {
+    display: flex;
+    flex-direction: column; /* เปลี่ยนเป็น column เพื่อเรียงลงมา */
+    align-items: center; /* จัดให้อยู่ตรงกลาง */
+  }
+  
+  .terminal {
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    transition: transform 0.3s ease; /* เพิ่ม transition เพื่อสร้างเอฟเฟกต์ */
+  }
+  
+  .terminal:hover {
+    transform: translateY(-5px); /* เลื่อนกรอบขึ้นเมื่อชี้เมาส์ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เพิ่มเงาเมื่อชี้เมาส์ */
+  }
+  
+  .terminal-header {
+    display: flex;
+    padding: 10px;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .terminal-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .terminal-button.red {
+    background-color: #e0443e;
+  }
+  
+  .terminal-button.yellow {
+    background-color: #e5c263;
+  }
+  
+  .terminal-button.green {
+    background-color: #61c454;
+  }
+  
+  .terminal-body {
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .terminal-body p {
+    margin: 0;
+    line-height: 1.6;
+  }
+  .hobbies-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hobby-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hobby-item i {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+  }

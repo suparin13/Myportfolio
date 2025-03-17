@@ -1,0 +1,19 @@
+#skills .skill-list {
+    display: flex;
+    flex-direction: column; /* เปลี่ยนเป็น column เพื่อจัดเรียงแนวตั้ง */
+    align-items: center; /* จัดให้ไอคอนและข้อความอยู่ตรงกลาง */
+  }
+  
+  #skills .skill-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+  
+  #skills .skill-icon {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    width: 2rem;
+    text-align: center;
+  }
